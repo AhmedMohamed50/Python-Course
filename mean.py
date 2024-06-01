@@ -1,3 +1,5 @@
+# in the code below: the for loop goes for each string so i can't give range(n), instead i should give str_n
+# ❌🔴🟥❎ False Code
 # def mean_of_digits(n):
 #     sum = 0
 #     str_n = str(n)
@@ -5,7 +7,7 @@
 #         sum += int(digit)
 #     return sum / len(str_n)
 
-
+# 🟩✅🟢 Right code
 def mean_of_digits(n):
     sum = 0
     str_n = str(n)
